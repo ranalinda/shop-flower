@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <header id="h1">
+        <nav>
+            <centre>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </centre>
+        </nav>
+        
+    </header>
+    <article class="haut">
+        <a href="https://www.fleurs-tunisie.tn/new_design/images/fm-text-img-01-min.png">
+            <img src="img shop.png" alt="shop">
+        </a>
+        <aside>
+            <h3>Votre Shop Flower en ligne 7 jours sur 7</h3>
+            <p class="premier">Leader de la livraison de fleurs depuis plus de 70 ans,</P> 
+            <P class="premier">Shop Flower avous propose sur son site de vente en ligne</P> 
+            <P class="premier">la garantie d'un service de qualité pour envoyer des fleurs</p>
+            <p class="premier">ou offrir un cadeau en toute occasion.</p>
+           
+            <p class="texte">Grâce à notre réseau de 5 200 fleuristes répartis dans toute</p> 
+            <p class="texte">la France, chaque bouquet de roses ou de saison est unique.</p> 
+            <p class="texte">Que vous choisissiez parmi nos fleuristes à Paris, en province</p>
+            <p class="texte">ou dans les DROM-COM, nous vous garantissons la qualité Shop Flower.</p>
+
+        </aside>
+    </article>
+    <aside>
+        <h1>Une équipe de fournisseurs professionnels et de fleuristes engagés dans la transmission de ce beau métier par des compositions uniques, mettent leur talent à notre service pour vous offrir le meilleur de la fleur en Tunisie</h1>
+        <p>Envoyer des fleurs en Tunisie est désormais possibles dans de nombreuses villes pour surprendre votre famille ou vos amis à leur domicile ou sur leur lieu de travail ! Parce que chaque instant de la vie mérite un arrêt sur image particulier : nous multiplions les occasions de vous livrer, où que vous soyez, nos plus beaux bouquets de fleurs.</p>
+        <p>7 jours sur 7, notre seul objectif est de satisfaire tous les goûts et toutes les exigences. Celle d'une clientèle amoureuse, comme nous, des belles choses, avec notre catalogue de fleurs, plantes et compositions originales que nous mettons à jour régulièrement. Et cette clientèle à la recherche du meilleur service pour faire parler son cœur, c'est vous !</p>
+        <p>Notre équipe, à l'écoute de vos attentes, saura vous guider, si nécessaire, pour trouver la prestation adéquate qui vous satisfera pleinement. Et pour répondre à tous vos besoins de produits ou en termes de livraison, fréquence, et accessoires d'accompagnement, nous avons pris le soin de répartir tous nos produits selon plusieurs catégories.</p>
+    </aside>
+
+    <section id="contact">
+        <article class="contact">
+            <fieldset>
+                <legend>
+                    <h2>Délais De Livraison:</h2>
+                </legend>
+                <form action="#" method="post">
+                    <!-- Nom -->
+                    <div class="form-group">
+                        <label for="name">Livrer à: (nom complet)</label>
+                        <input type="text" id="name" name="name" placeholder="" required>
+                    </div>
+                    <!-- tel -->
+                    <div class="form-group">
+                        <label for="tel">Numéro de Téléphone du Récepteur</label>
+                        <input type="number" id="tel" name="tel" placeholder="" required>
+                    </div>
+                    <!-- adresse -->
+                    <div class="form-group">
+                        <label for="tel"> Adresse Postale de Livraison</label>
+                        <input type="text" id="adresse" name="adresse" placeholder="" required>
+                    </div>
+                    <!-- Pays -->
+                    <div class="form-group">
+                        <label for="country">Pays</label>
+                        <select id="country" name="country" required>
+                            <option value="">Sélectionnez votre pays</option>
+                            <option value="france">France</option>
+                            <option value="belgique">Belgique</option>
+                            <option value="suisse">Suisse</option>
+                            <option value="canada">Canada</option>
+                            <option value="autre">Tunisie</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>À Propos de votre Commande de Fleurs</h2>
+                </legend>
+                <form action="#" method="post">
+                    <!-- Intérêts -->
+                    <div class="form-group">
+                        <label>Occasion</label>
+                        <div>
+                            <input type="checkbox" id="Anniversaire" name="interests" value="Anniversaire">
+                            <label for="Anniversaire">Anniversaire</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Je t'aime" name="interests" value="Je t'aime">
+                            <label for="Je t'aime">Je t'aime</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Fetes Des Mères" name="interests" value="Fetes Des Mères">
+                            <label for="Fetes Des Mères">Fetes Des Mères</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Autre" name="interests" value="Autre">
+                            <label for="Autre">Autre</label>
+                        </div>
+                    </div>
+                          
+                    <!-- Message -->
+                        <div class="form-group">
+                            <label for="message">Message Personnel</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Laissez-nous un message" required></textarea>
+                        </div>
+                    
+                        <!-- Bouton -->
+                    <div>
+                        <button type="submit" class="btn-submit">Soumettre La Commande Et Payer</button>
+                    </div>
+                </form>
+            </fieldset> 
+        </article>
+    </section>
+<footer>
+    <p>&copy; 2024 Flower Shop. All rights reserved.</p>
+</footer>
+    
+    
+</body>
+</html>
